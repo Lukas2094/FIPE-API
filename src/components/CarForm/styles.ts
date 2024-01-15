@@ -17,6 +17,10 @@ export const Container = styled(Flex)`
     justify-content: center;
     flex-direction: column;
 
+    @media(max-width: 968px) {
+        width: 100%;
+    }
+
     form {
         width: 100%;
         height: 100%;
@@ -47,6 +51,14 @@ export const SelectForm = styled(Select)`
     padding: 10px;
 
     color: darkgrey;
+
+    @media(max-width: 968px) {
+        font-size: 15px;
+
+        option {
+            font-size: 12px;
+        }
+    }
 `;
 
 export const ButtonSubmit = styled(Button)`
@@ -57,5 +69,9 @@ export const ButtonSubmit = styled(Button)`
     color: #FFF;
 
     margin: 10px;
+
+    @media(max-width: 968px) {
+        width: 100%;
+    }
 
 `;
