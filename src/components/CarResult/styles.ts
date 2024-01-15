@@ -24,6 +24,10 @@ export const BrandName = styled(Text)`
     font-weight: 700;
     word-break: break-all;
 
+    @media(max-width: 968px) {
+        font-size: 12px;
+    }
+
 `;
 
 export const Price = styled(Flex)`
