@@ -2,7 +2,6 @@ import React from "react";
 import * as S from './styles';
 
 export function CarResult({ carResult }) {
-    console.log(carResult);
     
     return (
         <S.Container>          

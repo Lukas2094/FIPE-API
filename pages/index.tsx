@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import store from '../redux/store/configureStore';
 import CarForm from '../src/components/CarForm/Carform';
-import { ChakraProvider, extendTheme, CSSReset } from '@chakra-ui/react';
+import { ChakraProvider, extendTheme, CSSReset, Progress } from '@chakra-ui/react';
 import * as S from '../styles/stylesHome';
 
 const theme = extendTheme({
